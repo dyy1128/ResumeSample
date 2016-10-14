@@ -1,2 +1,0 @@
-# ResumeSample
-my resume
