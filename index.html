@@ -24,7 +24,7 @@
 <!--[if lte IE 8]><div class="lte-ie8-comment-wrapper"><p class="lte-ie8-comment">你正在使用 IE8 或更老的古董浏览器，还是快升级或者换浏览器吧~</p></div><![endif]-->
 <aside>
 	<ul class="links">
-		<li class="link"><a href="static/joexiong.pdf">PDF 下载</a></li>
+		<li class="link"><a href="static/joexiong.resume.pdf">PDF 下载</a></li>
 	</ul>
 </aside>
 <div class="container">
@@ -43,7 +43,6 @@
 					<li class="contact-wechat">xiongwenhao1995</li>
 					<li class="contact-github"><a href="https://github.com/JoeXiong">https://github.com/JoeXiong</a></li>
 					<li class="contact-blog"><a href="http://blog.csdn.net/xwh670570759">http://blog.csdn.net/xwh670570759</a></li>
-
 				</ul>
 			</address>
 		</header>
@@ -51,6 +50,18 @@
 			<article class="column-6 first column">
 				<section class="education">
 					<div class="sec-title-wrapper"><h3 class="sec-title"><span class="sec-title-ch">教育经历</span><span class="sec-title-en">Education</span></h3></div>
+					<div class="timeline-wrapper">
+						<ul class="sec-content timeline">
+							<li class="timeline-item education-undergraduate">
+								<h3 class="timeline-title">
+									<time class="education-time">2019 ~ 至今</time>
+								</h3>
+								<dl class="education-description timeline-content">
+									<dt class="education-name">浙江理工大学</dt><dd class="education-major">计算机科学与技术</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
 					<div class="timeline-wrapper">
 						<ul class="sec-content timeline">
 							<li class="timeline-item education-undergraduate">
@@ -75,8 +86,17 @@
 						<ul class="sec-content timeline">
 							<li class="timeline-item experience-internship">
 								<h3 class="timeline-title">
+									<span class="experience-place">杭州维时科技有限公司（闪修侠）</span>
+									<time class="experience-time">2019.10 ~ 至今</time>
+								</h3>
+								<dl class="experience-description timeline-content"><dt class="experience-position">PHP工程师</dt>
+									<dd class="experience-task">负责供应链业务线、订单链路监控、参与技术底层升级构建（微服务从0到1）、协助其他业务线</dd>
+								</dl>
+							</li>
+							<li class="timeline-item experience-internship">
+								<h3 class="timeline-title">
 									<span class="experience-place">国鼎文化科技产业发展股份有限公司</span>
-									<time class="experience-time">2018.4 ~ 至今</time>
+									<time class="experience-time">2018.4 ~ 2019.10</time>
 								</h3>
 								<dl class="experience-description timeline-content"><dt class="experience-position">PHP工程师</dt>
 									<dd class="experience-task">可溯信贷审批系统、自动化测试工具、数据中心</dd>
@@ -91,7 +111,20 @@
 									<dd class="experience-task">负责开发公司相应项目（php对接app接口、用户中心模块、微信开发、购票项目、闸机终端服务商对接等）</dd>
 								</dl>
 							</li>
+							<li class="timeline-item experience-project">
+								<h3 class="timeline-title">
+									<span class="experience-project-type">工作项目</span>
+									<span class="experience-title-aside"><a href="http://www.shanxiuxia.com/" class="experience-project-link">项目主页</a></span>
+								</h3>
+								<dl class="experience-description timeline-content">
+									<dt class="experience-project-name">闪修侠</dt>
 
+									<dd class="experience-task">负责开发：供应链后台管理系统、供应链对内对外服务、订单链路监控、参与技术底层升级构建（微服务从0到1）等
+
+									</dd>
+									<dd class="experience-task">主要成就：主要负责了闪修侠订单链路监控的架构规划和主要研发，这个链路监控主要用到了mysql的binlog日志到kafka，再到分析binlog日志生成订单动作事件，动作事件的监控响应，这一套体系已经正常及时稳定的监控运行了一年左右；与技术经理一起参与了用swoole框架（swoft）从0到1搭建微服务，并参与老业务线的微服务改造；基于swoft开发了常用的中间件（异常钉钉报警、用户鉴权、跨域处理）；基于fastadmin维护了一套成熟的供应链后台管理体系等。</dd>
+								</dl>
+							</li>
 							<li class="timeline-item experience-project">
 								<h3 class="timeline-title">
 									<span class="experience-project-type">工作项目</span>
@@ -100,12 +133,13 @@
 								<dl class="experience-description timeline-content">
 									<dt class="experience-project-name">可溯信贷审批系统</dt>
 
-									<dd class="experience-task">负责开发：自动化测试脚本与数据中心、信贷审批系统、对接消息中心等
+									<dd class="experience-task">负责开发：自动化测试脚本与数据中心、信贷审批系统、对接消息中心服务（java团队提供的微服务）等
 
 									</dd>
 									<dd class="experience-task">主要成就：对公司使用的技术框架Phalcon基本熟悉掌握了、Nosql型数据mongo的基本使用、搜索引擎ElasticSearch的基本使用、根据原有审批系统独立开发了自动化测试工具包，并能定时执行流程，检查错误等。</dd>
 								</dl>
-							</li><li class="timeline-item experience-project">
+							</li>
+							<li class="timeline-item experience-project">
 							<h3 class="timeline-title">
 								<span class="experience-project-type">工作项目</span>
 								<span class="experience-title-aside"><a href="http://www.juyanabc.com/" class="experience-project-link">项目主页</a></span>
@@ -118,11 +152,11 @@
 								</dd>
 								<dd class="experience-task">主要成就：在与app对接时通过和app开发人员一起，总结了一套如何安全又高效的接口开发方法和注意事项；在完成客户端页面时数据过多导致进入页面有卡顿问题，思考加入了memcache和下拉分页刷新技术成功解决了卡顿问题；在与客户端进行无网扫码验票时共同研究理解了一种基于时间的加密验证算法（TOTP）；实现了客户端单点登录，从而理解了单点登录实现逻辑与处理方法；完成商户后台使用了H-ui前端框架等。</dd>
 							</dl>
-						</li>
+							</li>
 							<li class="timeline-item experience-project">
 								<h3 class="timeline-title">
 									<span class="experience-project-type">工作项目</span>
-									<span class="experience-title-aside"><a href="http://www.wpwzg.com/" class="experience-project-link">项目主页</a></span>
+									<span class="experience-title-aside"><a href="http://v.wpwzg.cn/" class="experience-project-link">项目主页</a></span>
 								</h3>
 								<dl class="experience-description timeline-content">
 									<dt class="experience-project-name">网批网</dt>
@@ -137,29 +171,15 @@
 							<li class="timeline-item experience-project">
 								<h3 class="timeline-title">
 									<span class="experience-project-type">私活项目（小型团队）</span>
-									<span class="experience-title-aside"><a href="http://www.lbkgmall.com/" class="experience-project-link">项目主页</a></span>
+									<span class="experience-title-aside"><a href="http://www.pinduiw.com/" class="experience-project-link">项目主页</a></span>
 								</h3>
 								<dl class="experience-description timeline-content">
-									<dt class="experience-project-name">联保商城</dt>
-									<dd class="experience-task">项目描述：车险/购物一体交易平台，此项目是根据ecshop小京东进行的二次开发，在小京东的基础上增加和优化了部分功能。
+									<dt class="experience-project-name">品兑网络/麦士特快洗</dt>
+									<dd class="experience-task">项目描述：网络预约洗车/商品换购平台，此项目是根据shopnc进行的二次开发，在shopnc基础上增加和修改及优化了部分功能
 									</dd>
-									<dd class="experience-task">负责开发：参加所有功能开发，负责与前端和服务器对接以及简单的服务器配置搭建
+									<dd class="experience-task">负责开发：参加所有功能开发，负责与前端和服务器对接以及服务器配置搭建
 									</dd>
 									<dd class="experience-task">主要成就：微信开发接口及在线支付接口（微信、支付宝）实现；分销模式优化；与网店管家ERP相关接口对接等。</dd>
-								</dl>
-							</li>
-							<li class="timeline-item experience-project">
-								<h3 class="timeline-title">
-									<span class="experience-project-type">个人项目</span>
-									<span class="experience-title-aside"><a href="http://www.buxiujiakjht.xin/" class="experience-project-link">项目主页</a></span>
-								</h3>
-								<dl class="experience-description timeline-content">
-									<dt class="experience-project-name">JoeXiong个人博客</dt>
-									<dd class="experience-task">项目描述：个人博客
-									</dd>
-									<dd class="experience-task">负责开发：个人独立开发
-									</dd>
-									<dd class="experience-task">主要成就：LNMP服务器、FTP、SVN等服务器的搭建与配置，个人博客（Z-Blog）项目的配置，实际操作了服务器从无到有的整个流等。</dd>
 								</dl>
 							</li>
 							<li class="timeline-item experience-project">
@@ -189,9 +209,11 @@
 								<h3 class="timeline-title"><span class="skills-type">Web 后端</span></h3>
 								<dl class="skills-description timeline-content">
 									<dt class="skills-item-summary"><strong>PHP</strong></dt>
+									<dd class="skills-item-description"><span><strong>Swoole/Swoft/Hyperf</strong>等phpcli框架的使用</span></dd>
 									<dd class="skills-item-description"><span><strong>Phalcon/ThinkPHP/JoePHP/Yii</strong>等框架的使用</span></dd>
 									<dd class="skills-item-description"><span><strong>Redis/Memcache/Smarty</strong>等缓存技术的相关使用</span></dd>
-									<dd class="skills-item-description"><span><strong>Mongo</strong>非关系型数据库的使用，<strong>Solr/Elasticsearch</strong>搜索引擎的使用</span></dd>
+									<dd class="skills-item-description"><span><strong>Kafka/RocketMQ</strong>消息队列的使用</span></dd>
+									<dd class="skills-item-description"><span><strong>Mongo</strong>非关系型数据库的使用，<strong>Solr/Elasticsearch</strong>搜索引擎的使用,<strong>Mysql-Binlog</strong>的采集、消费</span></dd>
 									<dd class="skills-item-description"><span>有<strong>Ecshop/Shopnc</strong>二次开发经验,有着互联网金融、电商平台、电子票务平台的开发经验</span></dd>
 									<dd class="skills-item-description"><span>有网店管家电商ERP管理系统和微票儿的对接接口经验，能够独立使用并开发中小型项目</span></dd>
 									<dl class="skills-description timeline-content"><dt class="skills-item-summary"><strong>JavaScript</strong></dt>
@@ -201,14 +223,14 @@
 										<dd class="skills-item-description"><span>熟练使用javaScript，jquery</span></dd>
 										<dt class="skills-item-summary">其他</dt>
 										<dd class="skills-item-description"><span>自学兴趣高，经常逛Google 了解最新知识</span></dd>
-										<dd class="skills-item-description"><span>关注知名PHP大牛、鸟哥、xuzuning、阮一峰等</span></dd></dl>
+										<dd class="skills-item-description"><span>关注知名PHP大牛、鸟哥、韩天峰、春哥等</span></dd></dl>
 								</dl>
 							</li>
 							<li class="timeline-item skills-backend">
 								<h3 class="timeline-title"><span class="skills-type">Linux</span></h3>
 								<ul class="skills-description skills-miscellaneous timeline-content">
 									<dl class="skills-description timeline-content">
-										<li class="skills-item-description"><span>有 <strong>Vagrant</strong>+<strong>Linux</strong>开发环境使用经验，熟悉常用命令与配置</span></li>
+										<li class="skills-item-description"><span>有 <strong>Vagrant/Docker</strong>+<strong>Linux</strong>开发环境使用经验，熟悉常用命令与配置</span></li>
 										<li class="skills-item-description">有实际的LNMP/LAMP服务器、FTP、SVN等相关搭建与配置</li>
 										<li class="skills-item-description">了解服务器负载均衡搭建、数据库服务器实现主从原理</li>
 									</dl></ul>
